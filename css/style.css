@@ -1,0 +1,414 @@
+/*GERAL*/	
+html, body { 
+	padding: 0px; 
+	margin: 0px; 
+	width: 100%; 
+	height: 100%; 		
+}
+
+*, *::before{
+	box-sizing: unset !important;	
+}
+
+#container1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+}
+
+#subcontainer1{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+}
+
+#banner{
+	width: 370px;
+	height: 100px;
+
+}
+
+.informations-contact{
+	color: gray;
+}
+.informations-contact i{
+	margin: 3px;
+}
+#subcotainer-left{
+	display: flex !important;	
+	align-items: center !important;
+	justify-content: center;
+	margin-left: auto !important;
+	border-style: solid;	
+	border-color: #20B2AA;
+	width: 20%;
+	height: 90%;
+	align-self: flex-end;		
+}
+
+.content-title::after, .content-title::before{
+	content: '';
+	width: 160px;
+	height: 3px;
+	background-color: #20B2AA;
+	/*box-shadow: 10px 10px 5px 5px grey;*/
+	margin: 10px auto;
+}	
+
+.content-title{
+	display: flex;	
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 3%;
+	font-family: "Oswald";
+
+}
+
+
+.myContent *{
+	font-family: "Oswald";
+}
+
+.myContent{
+	width: 100%;
+	height: 100%;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.SubMyContent1{
+	width: 40%;
+	height: 30% !important;
+	/*height: 50% !important;*/
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-color: gray;
+}
+
+
+
+
+
+
+
+.SubMyContent{
+	width: 80%;
+	height: 50% !important;
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-color: gray;
+}
+
+
+
+.SubMyContent1 h3{
+	font-size: 1.4em;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.title-curriculo{
+	display: flex;
+	align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: inherit !important;
+}
+
+.content-details{
+	margin-top: 3%;
+	height: 100%  !important;	
+	width: 100%;	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+	padding-bottom: 3%;
+
+
+
+}
+
+.left{
+	margin-left: 5%;
+}
+
+.left h5 {
+	font-size: 0.9em !important;
+}
+
+
+.MarginTop20{				
+	margin-top: 20% !important;
+}
+
+.MarginTop7{
+	margin-top: 7% !important;
+}
+
+.width20{
+	width: 40% !important;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.flex-self{
+	display: flex;
+	flex-direction: column;	
+	align-content: flex-end;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.width50{
+	width: 50%;
+}
+
+.width80{
+	width: 80%;
+}
+
+.margin-words{
+	margin-left: 8px; 
+}
+
+.content-experiences{
+	margin-top: 15%;
+	height: auto; 
+	display: flex;
+	flex-direction: column;
+}
+
+.subtitle{
+	justify-content: center;
+	width: 100% !important;
+	margin-top: 5%;
+}
+
+.HeigthAuto{
+	height: 50px;
+	width: 60%;
+}
+
+li{
+	list-style: none; 
+	display: flex;
+	align-items: center;
+	margin-top: 3px;
+}
+li i{
+	font-size: 25px;
+	margin-left: 3px;
+}
+
+ul{
+	margin-left: inherit; 
+	padding: 0;
+}
+.align-lists{
+	align-items: unset !important;
+	margin-top: 20px;
+}
+
+.left-list{
+	margin-left: 60px;
+}
+
+.justify-center{
+	display: flex;
+/*	flex-direction: column;*/
+	justify-content: center;
+}
+
+
+/*Navegation*/
+
+#navegation{
+	display: flex;
+	justify-content: center;
+	background-color: #20B2AA;
+	align-items: center;	 	
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+	/*position: fixed*/
+
+}
+
+
+#navegation div{
+	margin: 0;
+	padding: 0;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#navegation a{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	height: 30px;
+	padding: 5px;
+	color: #2F4F4F;
+	text-decoration: none;
+	transition: 0.8s;
+	font-family: 'Oswald';	
+}
+
+#navegation a:hover{
+	color: white;
+	background-color: #008B8B;
+	border-radius: 10px;
+	transition: 1s;
+	transform: translate(0px, -9px);
+	
+}
+
+
+/*images*/
+
+#img-perfil{
+	width: 20%;
+	height: 80%;
+}
+
+
+/*carousel*/
+
+.teste{
+	height: 492px !important;
+}
+
+.carousel-inner{
+	height: 100%;
+}
+
+
+.carousel-item{
+	height: 100%;
+}
+						
+
+#First{
+	z-index: 0;
+	height: 100%;
+	width: 100% !important;
+	position: absolute;
+	font-family: "Oswald";
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+#First::before{
+	content: "";
+	z-index: -1;
+	position: fixed;
+	background-image: url("../img/google.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	filter: brightness(23%);
+}
+
+
+#terceira{
+	z-index: 0;
+	height: 100%;
+	width: 100% !important;
+	position: absolute;
+	font-family: "Oswald";
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+#terceira::before{
+	content: "";
+	z-index: -1;
+	position: fixed;
+	background-image: url("../img/responsive.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	filter: brightness(23%);
+}
+
+#ThirdImage{
+	z-index: 0;
+	height: 100%;
+	width: 100% !important;
+	position: absolute;
+	font-family: "Oswald";
+}
+
+#ThirdImage::before{
+	content: "";
+	z-index: -1;
+	position: fixed;
+	background-image: url("../img/organization.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	filter: brightness(23%);
+}
+
+.d-block .title{
+	color: white;
+	font-size: 35px;
+	margin-left: 15%;
+	margin-top: 8%;
+}
+
+.d-block .paragraph{
+	font-size: 20px;
+	margin-left: 15%;
+	width: 35%;
+	color: white;
+}
+
+.title span{
+	font-size: 45px !important;
+}
+
+#teste{
+	height: 1000px;
+}
+
+.w-101{		
+	width: 100% !important;
+	max-height: 492px !important;
+}
+
+
+
