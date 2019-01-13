@@ -1,5 +1,9 @@
 <title>EMERSON | PORTEFÓLIO PROFISSIONAL</title>
 
+<!-- METAS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- Import Style.css -->
 <link rel="stylesheet" type="text/css" href="css/style.css">	
 
@@ -13,7 +17,6 @@
 
 <!-- FavIcon -->
 <link rel="icon" href="img/icons/icon-head.png">
-<meta charset="utf-8">
 
 
 <!-- bootsrap CDN -->
