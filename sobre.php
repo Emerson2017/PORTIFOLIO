@@ -14,26 +14,38 @@
 
 		<section class="myContent container d-flex  align-items-center">
 
+			<div class="content-apresentation">
+				<h4 class="title-center col-12 col-sm-12 col-lg-12"><  APRESENTAÇÃO  /></h4>
+
+				<div id="container-descrition">
+					<img src="img/perfil.jpg" alt="imagem de perfil" id="img-perfil">
+					<p class="Resume-descricion col-10 col-sm-10 col-lg-8 "><span id="bigWord">OLÁ</span>, sou o <strong>Emerson de Almeida Rocha</strong>, desenvolvi este portefólio para que o mundo possa me conhecer melhor. Possuo formação <strong> Técnica em Rede de Computadores</strong>, onde conheci e consegui praticar programação pela primeira vez. Atualmente estou cursando uma graduação em <strong> Análise e Desenvolvimento de Sistemas</strong>, onde pretendo consolidar meus conhecimentos na web e suas tecnologias.</p>
+				</div>
+			</div>
+
 			<div class="personal " >
-				<!-- row justify-content-around -->
 
 					<div class=" container SubMyContent1 col-12 col-sm-10 col-xl-5 col-lg-5">
 						<h3><i class="far fa-address-card"></i>  DADOS PESSOAIS</h3>
 						
 						<div class="content-details" >
-							<!-- <img src="img/perfil.jpg" alt="" id="img-perfil"> -->
 							<div class="left">
-								<p><strong>NOME COMPLETO</strong></p>
-								<h5>EMERSON DE ALMEIDA ROCHA</h5>
 								<aside>
+									<p><strong>NOME COMPLETO</strong></p>
+									<h5>EMERSON DE ALMEIDA ROCHA</h5>
+								</aside>	
+								<aside class="aside-top">
 									<p><strong>EMAIL</strong></p>
 									<h5>EMERSONDIMA@HOTMAIL.COM</h5>
 								</aside>
 							</div>
+
 							<div class="left" >
-								<p><strong>IDADE</strong></p>
-								<h5>19 ANOS</h5>
-								<aside class="flex-self">
+								<aside>
+									<p><strong>IDADE</strong></p>
+									<h5>19 ANOS</h5>
+								</aside>
+								<aside class="flex-self aside-top">
 									<p><strong>NACIONALIDADE</strong></p>
 									<h5>BRASILEIRO</h5>
 								</aside>			
@@ -47,16 +59,20 @@
 						<div class="content-details">
 							<div class="left">
 								<p><strong>CURSO TÉCNICO</strong></p>
-								<h5><strong>CURSO: </strong>Rede de Computadores</h5>
-								<h5><strong>LOCAL:</strong> E.E.E.P. Paulo Petrola</h5>
-								<h5><strong>PERÍODO :</strong> 2015 - 2017</h5>
+								<aside class="aside-top">
+									<h5><strong>CURSO: <br></strong>Rede de Computadores</h5>
+									<h5><strong>LOCAL: <br></strong> E.E.E.P. Paulo Petrola</h5>
+									<h5><strong>PERÍODO: <br></strong> 2015 - 2017</h5>
+								</aside>
 							</div>
 
 							<div class="left">
 								<p><strong>GRADUAÇÃO</strong></p>
-								<h5><strong>CURSO: </strong>Análise e Desenvolvimento de Sistemas</h5>
-								<h5><strong>LOCAL:</strong>ESTÁCIO</h5>
-								<h5><strong>PERÍODO :</strong> 2018 - 2020.1</h5>
+								<aside class="aside-top">
+									<h5><strong>CURSO: <br></strong>Análise e Desenvolvimento de Sistemas</h5>
+									<h5><strong>LOCAL: <br></strong>ESTÁCIO</h5>
+									<h5><strong>PERÍODO: <br></strong> 2018 - 2020.1</h5>
+								</aside>	
 							</div>
 						</div>
 					</div>

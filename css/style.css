@@ -6,7 +6,7 @@
              flex-direction: column !important;
              /*height: 50% !important;*/
              /*background-color: blue;*/
-             height: auto !important;
+             height: 34% !important;
              align-items: center !important;
 
        }
@@ -25,6 +25,7 @@
 		display: flex;
 		flex-direction: row !important;
 		justify-content: space-around !important;
+		height: 28% !important;
 	}
 
 }
@@ -98,7 +99,7 @@ p {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 3%;
+	margin-top: 5%;
 	font-family: "Oswald";
 
 }
@@ -128,8 +129,8 @@ p {
 
 
 .personal{
-	height: 28% !important;
 	width: 80% !important;
+	margin-top: 100px;
 }
 
 
@@ -456,3 +457,51 @@ ul{
 .custom{
 	width: 400px !important;
 }
+
+.aside-top{
+	margin-top: 15px;
+}
+
+/*PAGE SOBRE*/
+
+#bigWord{
+	font-size: 30px;
+}
+
+.content-apresentation{
+	width: 80% !important;
+	font-size: 18px;
+}
+
+.title-center{
+	text-align: center;
+
+}
+
+.Resume-descricion{
+	text-align: justify;
+	margin-left: 20px !important;
+}
+
+#container-descrition{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.column-description{
+	display: flex;
+	flex-direction: column !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
